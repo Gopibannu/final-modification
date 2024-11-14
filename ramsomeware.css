@@ -1,0 +1,146 @@
+/* Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+  animation: fadeIn 2s ease-in-out;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  color:cyan; /* Red for ransomware theme */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header {
+  text-align: center;
+  padding: 3rem;
+  background:linear-gradient(45deg, #00b5e2, #00f2a1);
+  border-bottom: 4px solid cyan;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 3.5rem;
+  animation: slideInFromTop 1.5s ease-in-out;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.header-img {
+  max-width: 90%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+  animation: zoomIn 1.5s ease-in-out;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styles */
+section {
+  padding: 4rem 2rem;
+  margin: 3rem 0;
+  border-radius: 10px;
+  background: #1c1c1c;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.4);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  color: cyan;
+}
+
+p, ul, ol {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+ul, ol {
+  padding-left: 2rem;
+}
+
+button {
+  background-color: cyan;
+  color: black;
+  font-size: 1.3rem;
+  padding: 1rem 2rem;
+  border: 2px solid cyan;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color:cyan;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Quiz Styles */
+#quiz-container {
+  margin-top: 3rem;
+  background-color: #1f1f1f;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.4);
+}
+
+.quiz-question {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: cyan;
+}
+
+.quiz-options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-options li {
+  margin: 1rem 0;
+}
+
+.quiz-options li button {
+  background-color: #333;
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: 1px solid #444;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:all 0.7s;
+}
+img{
+  transition: all 0.7s;
+}
+img:hover{
+  box-shadow:0px 0px 50px cyan,0px 0px 25px cyan;
+}

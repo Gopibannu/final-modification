@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login1.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Sign Up</h1>
+            <p class="login-desc">Enter your details to create your account</p>
+           
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter Username" id="username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Password" id="password" required><br><br>
+                    <label for="password" > Confirm Password</label>
+                    <input type="password" placeholder="Enter Password" id="password" required>
+                </div>
+
+                <div class="forgot-password">
+                    <a href="#"></a>
+                </div>
+
+                <div class="signup">
+                    <p> <a href="#" class="link1"></a></p>
+                </div>
+
+               <button class="submit-btn" onclick = "createaccount()" id
+               ="Hello">Sign Up</button>
+           
+
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

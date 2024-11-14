@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+ 
+}
+body{
+  background-color: rgba(78, 77, 77, 0.945);
+}
+
+.gopi{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  color: aliceblue;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-style: normal;
+}
+.res{
+  text-align: center;
+  margin-top: 15px;
+  padding:20px;
+  font-size: 30px;
+  color: aliceblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.threat{
+  margin-left:100px;
+  margin-top: 20px;
+  
+}
+.cont{
+  margin-left: 360px;
+  margin-top: 20px;
+  padding:20px;
+  color: aliceblue;
+   width: 655px;
+   font-size:20px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 30px;
+   
+}
+.space{
+  margin-left: 160px;
+}
+.head
+{
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 50px;
+  text-decoration: underline;
+  
+  
+}
+.points{
+  margin-left:325px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: aliceblue;
+ font-size: 25px;
+ font-weight: 400;
+ font-style: normal;
+padding-bottom: 20px;
+  margin-top: 30px;
+}
+.body{
+  margin-top:20px;
+  font-size: 15px;
+  line-height: 20px;
+  width:600px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.points h1{
+  padding: 20px;
+}
+.points2 h2{
+  text-align: center;
+  color: aliceblue;
+  font-family: "Bebas Neue" ;
+  font-weight: 400;
+ font-style: normal;
+ text-decoration: underline;
+ font-size: 50px;
+ margin-top: 30px;
+}
+.points2 .body{
+  margin-top:20px;
+  font-size: 15px;
+  line-height: 20px;
+  width:600px;
+}
+.points2 h1{
+  margin-left: 350px;
+  margin-top: 30px ;
+  font-family:"Bebas Neue" ;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color:aliceblue;
+}
+.points2 .body{
+  margin-left: 350px;
+  font-size: 18px;
+  color: aliceblue;
+  line-height: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

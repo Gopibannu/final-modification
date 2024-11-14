@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  body {
+    background: black;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .nav ul {
+    display: flex;
+    margin-right: 200px;
+    gap: 100px;
+  }
+  
+  .nav li {
+    list-style-type: none;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    gap: 100px;
+
+  }
+  
+  .left-side,
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* space between boxes in each column */
+  }
+  
+  .box {
+    background-color: aliceblue;
+    max-width: 300px;
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .box1, .box3 {
+    background-color: aliceblue; /* Custom styling for left-side boxes */
+  }
+  
+  .box2, .box4 {
+    background-color: white;
+         /* Custom styling for right-side boxes */
+  }
+  
+  .heading, .heading1, .heading2 {
+    margin-bottom: 10px;
+  }
+  
+  .p {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+  }
+  .content h1,p{
+    color: black;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    gap: 100px; /* Adds more space between the left and right columns */
+  }
+  .hero{
+    background-image: url("bgim.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    
+  }
+  

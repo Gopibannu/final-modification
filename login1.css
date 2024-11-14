@@ -1,0 +1,168 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Login Box */
+.login-box {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.login-box h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.login-desc {
+  color: #888;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Input Styles */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #5c6bc0;
+  box-shadow: 0 0 5px rgba(92, 107, 192, 0.5);
+}
+
+/* Links */
+.forgot-password {
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  color: #5c6bc0;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.signup p {
+  color: #777;
+  font-size: 1rem;
+}
+
+.signup a {
+  color: #5c6bc0;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+.submit-btn {
+  background-color: #5c6bc0;
+  color: #fff;
+  border: none;
+  padding: 15px 0;
+  font-size: 1.1rem;
+  width: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  background-color:#fff;
+color: #5c6bc0;
+ box-shadow: 0px 0px 5px blue;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #888;
+  margin: 0 15px;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  color: #5c6bc0;
+}
+
+/* Hover Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-box {
+      padding: 20px;
+      width: 100%;
+  }
+
+  .login-box h1 {
+      font-size: 2rem;
+  }
+}
+.signup{
+  margin-bottom: 20px;
+}
